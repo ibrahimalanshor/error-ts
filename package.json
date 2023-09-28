@@ -1,5 +1,5 @@
 {
-  "name": "error-ts",
+  "name": "galat",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -10,15 +10,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ibrahimalanshor/error-ts.git"
+    "url": "git+https://github.com/ibrahimalanshor/galat.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/ibrahimalanshor/error-ts/issues"
+    "url": "https://github.com/ibrahimalanshor/galat/issues"
   },
-  "homepage": "https://github.com/ibrahimalanshor/error-ts#readme",
+  "homepage": "https://github.com/ibrahimalanshor/galat#readme",
   "devDependencies": {
     "@jest/globals": "^29.7.0",
     "@typescript-eslint/eslint-plugin": "^6.7.3",
