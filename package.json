@@ -2,9 +2,9 @@
   "name": "galat",
   "version": "1.0.0",
   "description": "Galat",
-  "main": "index.js",
+  "main": "./dist/index.js",
   "files": ["dist"],
-  "types": "./types/index.d.ts",
+  "types": "./dist/index.d.ts",
   "scripts": {
     "test": "jest --passWithNoTests",
     "test:watch": "jest --watch --passWithNoTests",
