@@ -1,3 +1,9 @@
+export interface ErrorPayload<T> {
+  name: T
+  message: string
+  cause?: any
+}
+
 export abstract class BaseError<ErrorNames extends string> extends Error {
   name: ErrorNames;
   message: string;
@@ -7,11 +13,7 @@ export abstract class BaseError<ErrorNames extends string> extends Error {
     name,
     message,
     cause,
-  }: {
-    name: ErrorNames;
-    message: string;
-    cause?: any;
-  }) {
+  }: ErrorPayload<ErrorNames>) {
     super();
 
     this.name = name;
